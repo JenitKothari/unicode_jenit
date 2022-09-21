@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 0, 0, 0.729);    
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+}
+#header{
+    text-align: center;
+    color: white;
+    background-color: aqua; background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(4,16,134,1) 49%, rgba(133,143,255,1) 100%);
+    padding-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.details{
+    padding: 18px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type="submit"],input[type="reset"]{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 47, 255, 0.532);
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+    background-color: rgba(47, 151, 249, 0.807);
+    border-color:white;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+   
+}
